@@ -1,0 +1,2 @@
+vhdl isim_temp "Cache_Controller.vhd"
+vhdl isim_temp "Test1.vhd"

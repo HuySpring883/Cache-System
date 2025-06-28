@@ -1,0 +1,2 @@
+vhdtdtfi -lib work SDRAM_Controller.vhd -prj Project1 -o SDRAM_Controller.spl -module SDRAM_Controller -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e SDRAM_Controller.spl {/home/student2/t11ngo/COE758/Project 1/Project1/SDRAM_Controller.sym} 

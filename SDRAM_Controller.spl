@@ -1,0 +1,9 @@
+[Inputs]
+WR_RD
+MEMSTRB
+clk
+=Address[15:0]=
+=Din[7:0]=
+[Outputs]
+=Dout[7:0]=
+[BiDir]
