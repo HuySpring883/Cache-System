@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.xst" -ofn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.xst" -ofn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -t 1 Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 
+bitgen -intstyle ise -f Cache.ut Cache.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.xst" -ofn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "Cache.ngc" Cache.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Cache_map.ncd Cache.ngd Cache.pcf 
+par -w -intstyle ise -ol high -t 1 Cache_map.ncd Cache.ncd Cache.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Cache.twx Cache.ncd -o Cache.twr Cache.pcf 

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_Controller.xst" -ofn "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_Controller.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-5 "Cache_Controller.ngc" Cache_Controller.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o Cache_Controller_map.ncd Cache_Controller.ngd Cache_Controller.pcf 
+par -w -intstyle ise -ol high -t 1 Cache_Controller_map.ncd Cache_Controller.ncd Cache_Controller.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Cache_Controller.twx Cache_Controller.ncd -o Cache_Controller.twr Cache_Controller.pcf 
+bitgen -intstyle ise -f Cache_Controller.ut Cache_Controller.ncd 
