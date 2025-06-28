@@ -1,0 +1,12 @@
+AR cache behavioral "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.vhd" sub00/vhpl07 1699296885
+EN cache_system NULL "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_System.vhd" sub00/vhpl10 1699296888
+EN cache_controller NULL "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_Controller.vhd" sub00/vhpl04 1699296878
+EN cpu_gen NULL "/home/student2/t11ngo/COE758/Project 1/Project1/CPU_gen.vhd" sub00/vhpl00 1699296882
+EN sram NULL "/home/student2/t11ngo/COE758/Project 1/Project1/ipcore_dir/sram.vhd" sub00/vhpl08 1699296880
+AR sdram_controller behavioral "/home/student2/t11ngo/COE758/Project 1/Project1/SDRAM_Controller.vhd" sub00/vhpl03 1699296887
+AR sram sram_a "/home/student2/t11ngo/COE758/Project 1/Project1/ipcore_dir/sram.vhd" sub00/vhpl09 1699296881
+EN cache NULL "/home/student2/t11ngo/COE758/Project 1/Project1/Cache.vhd" sub00/vhpl06 1699296884
+AR cpu_gen behavioral "/home/student2/t11ngo/COE758/Project 1/Project1/CPU_gen.vhd" sub00/vhpl01 1699296883
+EN sdram_controller NULL "/home/student2/t11ngo/COE758/Project 1/Project1/SDRAM_Controller.vhd" sub00/vhpl02 1699296886
+AR cache_controller behavioral "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_Controller.vhd" sub00/vhpl05 1699296879
+AR cache_system behavioral "/home/student2/t11ngo/COE758/Project 1/Project1/Cache_System.vhd" sub00/vhpl11 1699296889
